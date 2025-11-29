@@ -63,6 +63,7 @@ def reset_processes(processes: List[Process]) -> None:
         p.waiting_time = None
         p.turnaround_time = None
         p.remaining_time = p.burst_time
+        
 
 
 def compute_metrics(processes: List[Process]) -> dict:
